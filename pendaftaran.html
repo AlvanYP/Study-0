@@ -4,8 +4,10 @@
   <head>
     <title>Form Pendaftaran</title>
     <style>
-      #akun,#email,#password,#jeniskelamin,#negara{
+      #akun,#email,#password,#jeniskelamin,#negara,p{
           margin:2px;
+          font-style: arial;
+
       }
     </style>
   </head>
@@ -23,11 +25,14 @@
     </div>
     <div id="jenisKelamin">
       Jenis Kelamin
+    <div>
       <input type="radio" name="jeniskelamin" value="Laki-Laki"> Laki-Laki
       <input type="radio" name="jeniskelamin" value="Perempuan"> Perempuan
     </div>
+    </div>
     <div id="negara">
-      <input list="namanegara" name="negara" placeholder="Negara">
+      <p>Negara</p>
+      <input list="namanegara" name="negara" placeholder="-">
       <datalist id="namanegara">
       <option value="Amerika">
       <option value="Jepang">
