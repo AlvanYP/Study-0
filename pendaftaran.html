@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Pendaftaran</title>
+    <style>
+      #akun,#email,#password,#jeniskelamin,#negara{
+          margin:2px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Pendaftaran Akun Baru</h2>
+      <div id="akun">
+        <input type="text" name="nama" placeholder="Nama">
+        <input type="text" name="id" placeholder="ID">
+      </div>
+      <div id="email">
+        <input type="email" name="email" placeholder="example@domain.com">
+      </div>
+    <div id="password">
+      <input type="password" name="password" placeholder="Password">
+    </div>
+    <div id="jenisKelamin">
+      Jenis Kelamin
+      <input type="radio" name="jeniskelamin" value="Laki-Laki"> Laki-Laki
+      <input type="radio" name="jeniskelamin" value="Perempuan"> Perempuan
+    </div>
+    <div id="negara">
+      <input list="namanegara" name="negara" placeholder="Negara">
+      <datalist id="namanegara">
+      <option value="Amerika">
+      <option value="Jepang">
+      <option value="Malaysia">
+      <option value="Indonesia">
+      <option value="Lainnya">
+      </datalist>
+    </div>
+  </body>
+</html>

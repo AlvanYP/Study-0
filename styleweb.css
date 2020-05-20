@@ -11,11 +11,13 @@ h1{
 .love{
   color:#ff2465;
 }
+a{
+  color: Black;
+}
 #kp1, p {
    text-align: center;
    margin: 2px;
    font-size: 20px;
-}
 h4{
    margin:10px;
 }
